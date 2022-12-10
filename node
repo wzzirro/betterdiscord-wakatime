@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+if [[ ! -z "$@" ]]
+then bash ./exec -c "betterdiscord-wakatime.node" "$@"
+else bash ./exec -c "betterdiscord-wakatime.node" bash
+fi

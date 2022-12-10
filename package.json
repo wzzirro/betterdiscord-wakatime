@@ -1,0 +1,23 @@
+{
+  "name": "betterdiscord-wakatime",
+  "version": "1.0.0",
+  "description": "betterdiscord-wakatime",
+  "scripts": {
+    "build": "zpl build",
+    "init": "zpl init"
+  },
+  "author": "wzzirro",
+  "license": "MIT",
+  "buildConfig": {
+    "pluginsFolder": "./src",
+    "releaseFolder": "./dist",
+    "copyToBD": true,
+    "addInstallScript": true,
+    "github": "https://github.com/wzzirro/betterdiscord-wakatime/tree/master/Plugins/`{{PLUGIN_NAME}}`",
+    "githubRaw": "https://raw.githubusercontent.com/wzzirro/betterdiscord-wakatime/master/Plugins/`{{PLUGIN_NAME}}`/`{{PLUGIN_NAME}}`.plugin.js",
+    "authorLink": "https://github.com/wzzirro"
+  },
+  "devDependencies": {
+    "zerespluginlibrary": "^2.0.6"
+  }
+}

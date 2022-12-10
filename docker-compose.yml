@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  betterdiscord-wakatime.node:
+    image: node:16
+    restart: always
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - ~/.ssh:/home/node/.ssh:ro
+      - ~/.config/BetterDiscord/plugins/:/home/node/.config/BetterDiscord/plugins/
+    tty: true
